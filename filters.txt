@@ -1,0 +1,178 @@
+! Blank the homepage recommendations
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com###content > .ytd-rich-item-renderer.style-scope
+www.youtube.com##ytd-continuation-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
+www.youtube.com###grid-title
+
+
+! Removes the "Chip Bar" - All those buttons with topics underneath the search
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+
+
+! Removes the Sign In prompt on the sidebar
+www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
+
+
+! Blocks items which have the text 'Recommended' in them
+www.youtube.com##li.video-list-item:if(span:has-text(/^Recommended/))
+www.youtube.com##div.content-wrapper:if(span:has-text(/^Recommended/))
+
+
+! Get rid of the pause overlay
+www.youtube.com##.ytp-pause-overlay.ytp-scroll-min
+www.youtube.com##.ytp-ce-covering-overlay
+www.youtube.com##.ytp-ce-element-shadow
+www.youtube.com##.ytp-ce-element-show.ytp-ce-size-1280.ytp-ce-top-left-quad.ytp-ce-video.ytp-ce-element
+
+
+! Hide all of the recommended videos on the right side of the page.
+! Leaves only the first video that will be played next, if autoplay is enabled. 
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(2)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(3)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(4)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(5)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(6)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(7)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(8)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(9)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(10)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(11)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(12)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(13)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(14)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(15)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(16)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(17)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(18)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(19)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(20)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(21)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(22)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(23)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(24)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(25)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(26)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(27)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(28)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(29)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(30)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(31)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(32)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(33)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(34)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(35)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(36)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(37)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(38)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(39)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(40)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(41)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(42)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(43)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(44)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(45)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(46)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(47)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(48)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(49)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(50)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(51)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(52)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(53)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(54)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(55)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(56)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(57)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(58)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(59)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(60)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(61)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(62)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(63)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(64)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(65)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(66)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(67)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(68)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(69)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(70)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(71)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(72)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(73)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(74)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(75)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(76)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(77)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(78)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(79)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(80)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(81)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(82)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(83)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(84)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(85)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(86)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(87)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(88)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(89)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(90)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(91)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(92)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(93)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(94)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(95)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(96)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(97)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(98)
+www.youtube.com###items > .ytd-watch-next-secondary-results-renderer.style-scope:nth-of-type(99)
+
+
+! Hide even more 'what's next' spam. This prevents the list from expanding.
+www.youtube.com##ytd-continuation-item-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+www.youtube.com###continuations > .ytd-watch-next-secondary-results-renderer.style-scope
+www.youtube.com##.use-ellipsis.ytd-watch-next-secondary-results-renderer.style-scope
+www.youtube.com##ytd-compact-playlist-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+
+
+! Removes Movie Recommendations / Ads from right below the up next video
+www.youtube.com##.ytd-compact-movie-renderer.style-scope.details
+www.youtube.com##ytd-thumbnail.ytd-compact-movie-renderer.style-scope
+
+
+! Annotations (Inclues that persistent little badge on the bottom right of the video player)
+www.youtube.com##.iv-branding.annotation-type-custom.annotation
+
+
+! Cards
+www.youtube.com##.ytp-cards-teaser
+www.youtube.com##.ytp-cards-button-icon-default
+
+
+! Removes the "Topical Context" panel. These are those snippets debunking conspiracy theories.
+! I assume you odn't need to be educated about the Moon Landings or the Earth beind round.
+www.youtube.com###clarify-box
+www.youtube.com##ytd-clarification-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-info-panel-container-renderer.ytd-item-section-renderer.style-scope
+
+
+! First Party YouTube Offers and Promos
+www.youtube.com###offer-module
+www.youtube.com###watch7-sidebar-offer
+www.youtube.com##.mealbar-promo-renderer.yt-dialog
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+
+
+!! Misc filters which I find useful but aren't for everyone. !!
+
+! Removes the Next Button which is to the right of the Play/Pause button.
+! I hide this button because I often click it by accident. 
+! www.youtube.com##.ytp-button.ytp-next-button
+
+! Removes the red SUBSCRIBE button next to a channels name.
+! www.youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-destructive.ytd-button-renderer.style-scope
+
+! Removes the grid icon for YouTube Apps. 
+! www.youtube.com##ytd-topbar-menu-button-renderer.style-default.ytd-masthead.style-scope:nth-of-type(1)
+
+! Removes the Search with your Voice button.
+! www.youtube.com###voice-search-button
